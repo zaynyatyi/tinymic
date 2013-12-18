@@ -1,7 +1,7 @@
 package tinymic;
 
-import org.haxe.nme.GameActivity;
-import org.haxe.nme.HaxeObject;
+import org.haxe.lime.GameActivity;
+import org.haxe.lime.HaxeObject;
 import org.haxe.extension.Extension;
 import android.util.Log;
 import android.media.MediaRecorder;
