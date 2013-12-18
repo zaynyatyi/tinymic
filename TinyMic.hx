@@ -51,7 +51,7 @@ class TinyMic {
 	    tinymic_assign_callback_object = openfl.utils.JNI.createStaticMethod(
 	    	"tinymic.TinyMic",
 	    	"assignCallbackObject",
-	    	"(Lorg/haxe/nme/HaxeObject;)V"
+	    	"(Lorg/haxe/lime/HaxeObject;)V"
 	    );
 	    tinymic_get_amplitude = openfl.utils.JNI.createStaticMethod(
 	    	"tinymic.TinyMic",
